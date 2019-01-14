@@ -1,0 +1,18 @@
+POST http://10.49.25.48:8080/rdrs/operationLogs/logs
+{
+    "username": "12091706",
+    "platform": "运维平台",
+    "action": "-",
+    "startTime": "2018-07-08 16:15:06",
+    "endTime": "2018-07-20 16:15:06",
+    "nowPage": 1,
+    "pageSize": 10
+}
+
+###
+
+GET http://10.49.25.48:8080/rdrs/operationLogs/allUser
+Accept: application/json
+
+
+###
